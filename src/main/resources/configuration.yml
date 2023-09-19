@@ -1,0 +1,22 @@
+
+chest_size: 54 #Tamanho do baú em slots
+
+next_icon:
+  slot: 53
+  item: "ARROW"
+  name: "&ePróxima"
+  lore:
+    - "&e"
+    - "&eClique aqui para ir pra próxima"
+back_icon:
+  slot: 0
+  item: "ARROW"
+  name: "&eAnterior"
+  lore:
+    - "&e"
+    - "&eClique aqui para ir pra anterior"
+titles:
+  - "0:&ePrimeiro Título"
+  - "5:&eCinco Segundos"
+  - "10:&bDez Segundos"
+  #Após passar tudo volta do início

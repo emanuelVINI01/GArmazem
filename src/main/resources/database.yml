@@ -1,0 +1,5 @@
+type: "SQLite" #Pode ser MYSQL ou SQLite
+host: "localhost:3306" #Aplica-se apenas ao MySQL
+username: "root" #Aplica-se apenas ao MySQL
+password: "" #Aplica-se apenas ao MySQL
+database: "minecraft" #Aplica-se apenas ao MySQL

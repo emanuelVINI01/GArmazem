@@ -1,0 +1,20 @@
+upgrades:
+  1:
+    add: 1 #Páginas que serão adicionadas
+    price: 50 #Preço para ser comprado
+    slot: 3
+    inventory_icon: # O que aparecerá no inventário de compra
+      item: "STONE"
+      name: "Upgrades"
+      lore:
+        - "&e"
+        - "&eClique aqui para ativar seu upgrade!"
+        - "&eQuantidade: 1"
+        - "&ePreço: $50"
+    player_icon: # O que aparecerá no inventário do player após compra
+      item: "STONE"
+      name: "Upgrades"
+      lore:
+        - "&e"
+        - "&eClique aqui para ativar seu upgrade!"
+        - "&eQuantidade: 1"

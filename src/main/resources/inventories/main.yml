@@ -1,0 +1,16 @@
+title: "&eArmazém"
+size: 36
+storage_open_icon:
+  slot: 13
+  item: "CHEST"
+  name: "&eBaú"
+  lore:
+    - "&e"
+    - "&eClique aqui para abrir os seus baús"
+upgrade_open_icon:
+  slot: 14
+  item: "STONE"
+  name: "&bUpgrades"
+  lore:
+    - "&e"
+    - "&eClique aqui para abrir o menu de upgrades"
