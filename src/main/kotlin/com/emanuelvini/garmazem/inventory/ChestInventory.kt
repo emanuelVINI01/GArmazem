@@ -32,6 +32,8 @@ class ChestInventory(
 
     private var closed = false
 
+    private var titleLoop = false
+
 
     companion object {
 
@@ -65,7 +67,7 @@ class ChestInventory(
             chests[page]
         }
 
-        if (titleIndex == 0) {
+        if (titleIndex == 0 && !titleLoop) {
             orgTitles.forEach {
                 val props = it.split(":")
                 val time = props[0].toInt()
@@ -73,6 +75,10 @@ class ChestInventory(
                 Bukkit.getScheduler().runTaskLater(plugin, Runnable {
                     if (!closed) {
                         titleIndex += 1
+                        if (titleIndex >= orgTitles.size) {
+                            titleIndex = 0
+                            titleLoop = true
+                        }
                         player.closeInventory()
                         open(player)
                         closed = false
