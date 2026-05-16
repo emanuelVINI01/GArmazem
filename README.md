@@ -10,7 +10,7 @@ Na prática, este repositório representa uma fase inicial de experimentação: 
 
 ## Stack identificada
 
-Bukkit/Spigot, Gradle, KSP, Kotlin
+Bukkit/Spigot, Gradle, Kotlin
 
 ## Leitura do código
 
